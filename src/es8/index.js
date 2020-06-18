@@ -30,3 +30,5 @@ console.log(string.padStart(7, 'hi'));
 console.log(string.padEnd(12, ' -----'));
 console.log(string.padEnd(12, '  -----'))
 // esto es util para frontend
+
+// Async Await
