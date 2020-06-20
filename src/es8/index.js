@@ -34,7 +34,7 @@ console.log(string.padEnd(12, '  -----'));
 // Async Await
 const helloWorld = () => {
   return new Promise((resolve, reject) => {
-    (true)
+    (false)
       ? setTimeout(() => resolve('Hello World'), 3000)
       : reject(new Error('Test Error'))
   })
@@ -55,6 +55,8 @@ const anotherFunction = async () => {
     console.log(error);
   }
 };
+
+anotherFunction();
 
 // ECMAScript 9
 
