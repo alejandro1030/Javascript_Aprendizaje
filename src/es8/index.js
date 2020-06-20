@@ -57,6 +57,3 @@ const anotherFunction = async () => {
 };
 
 anotherFunction();
-
-// ECMAScript 9
-
