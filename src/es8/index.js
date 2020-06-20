@@ -36,7 +36,7 @@ const helloWorld = () => {
   return new Promise((resolve, reject) => {
     (true)
       ? setTimeout(() => resolve('Hello World'), 3000)
-      :reject(new Error('Test Error'))
+      : reject(new Error('Test Error'))
   })
 };
 
@@ -56,4 +56,5 @@ const anotherFunction = async () => {
   }
 };
 
-// Prueba de push y pull
+// ECMAScript 9
+
